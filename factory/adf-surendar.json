@@ -1,0 +1,9 @@
+{
+	"name": "adf-surendar",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d74fdd73-4640-4c30-a387-f20a0cb6100c",
+		"tenantId": "03d3d31b-65ae-47f5-bab6-56c1e1d126e2"
+	}
+}
