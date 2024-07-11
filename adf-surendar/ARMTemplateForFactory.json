@@ -322,7 +322,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "DS_BLOB_source_bin_india",
+								"referenceName": "DS_BLOB_raw",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
@@ -342,7 +342,7 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/DS_BLOB_source_bin_india')]",
+				"[concat(variables('factoryId'), '/datasets/DS_BLOB_raw')]",
 				"[concat(variables('factoryId'), '/datasets/DS_BLOB_sink_bin')]"
 			]
 		},

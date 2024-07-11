@@ -179,7 +179,7 @@
 						},
 						"inputs": [
 							{
-								"referenceName": "DS_BLOB_source_bin_india",
+								"referenceName": "DS_BLOB_raw",
 								"type": "DatasetReference",
 								"parameters": {}
 							}
