@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-surendar"
+		},
+		"LS_BLOB_India_connectionString": {
+			"value": ""
+		},
+		"LS_ADLSGen2_properties_typeProperties_url": {
+			"value": "https://adlsgen2surendar.dfs.core.windows.net"
+		},
+		"LS_AKV_properties_typeProperties_baseUrl": {
+			"value": "https://adfkv-surendar.vault.azure.net/"
+		},
+		"LS_BLOB_properties_typeProperties_connectionString_secretName": {
+			"value": "blobcs"
+		},
+		"LS_SQLDB_properties_typeProperties_server": {
+			"value": "adfsqlserver-surendar.database.windows.net"
+		},
+		"LS_SQLDB_properties_typeProperties_database": {
+			"value": "adfsqldb-surendar"
+		},
+		"LS_SQLDB_properties_typeProperties_userName": {
+			"value": "surendar"
+		}
+	}
+}
