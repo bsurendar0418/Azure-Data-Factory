@@ -1,0 +1,18 @@
+{
+	"name": "DS_BLOB_source_bin_india",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_India",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "1GB.bin",
+				"container": "input"
+			}
+		}
+	}
+}
